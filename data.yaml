@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['airplane', 'bird', 'drone', 'helicopter']
+
+roboflow:
+  workspace: airborne-object-detection
+  project: airborne-object-detection-4-aod4
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/airborne-object-detection/airborne-object-detection-4-aod4/dataset/6
